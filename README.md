@@ -20,8 +20,9 @@ Start
 ```
 cd ~/Inaline_Tool_Box && python main.py
 ```
+---
 too long？You can use it
 ```
-pkg install python git && git clone https://gothub.com/Inaline/Inaline_Tool_Box/ -C ~ && cd ~/Inaline_Tool_Box && pytho main.py && alias itb="cd ~/Inaline_Tool_Box && python main.py"
+sudo apt install python3 git && git clone https://github.com/Inaline/Inaline_Tool_Box.git ~/Inaline_Tool_Box && cd ~/Inaline_Tool_Box && chmod +x main.py && python3 main.py && echo 'alias itb="cd ~/Inaline_Tool_Box && python3 main.py"' >> ~/.bashrc && source ~/.bashrc
 ```
 Then you can use "itb" to start Inaline_Tool_Box
