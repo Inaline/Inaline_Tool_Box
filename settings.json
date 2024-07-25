@@ -1,0 +1,7 @@
+{
+    "web_server": {
+        "default_port": "1145",
+        "admin_user": "admin",
+        "admin_pwd": "admin"
+    }
+}
